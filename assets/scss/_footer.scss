@@ -1,0 +1,61 @@
+.footer{
+
+    margin: 20px;
+}
+.textoFooter{
+
+font-size:18px ;
+
+}
+
+.containerRedes{
+  
+    width: 100%;
+    
+    ul{
+        &:hover a{
+            filter: blur(2px);
+        }
+        li{
+            display: inline-block;
+            margin: 0 10px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            a{
+                display: block;
+                padding:0 10px;
+                background-color: #333;
+                color: white;
+                line-height: 50px;
+                font-size: 18px;
+                transition: .2s;
+                &:hover{
+                    transform: translateY(-3px)
+                    scale(1.05);
+                    filter: none;
+
+                }
+
+
+            }
+            &:hover .facebook{ background-color: $facebook;
+
+            }
+            &:hover .instagram{
+                background-color: $instagram;
+
+            }
+            &:hover .whatsapp{
+                background-color: $whatsapp;
+
+            }
+            &:hover .gmail{
+                background-color: $gmail;
+            }
+        }
+    }
+    
+    
+
+}

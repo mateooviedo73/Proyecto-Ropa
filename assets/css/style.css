@@ -11,23 +11,7 @@
 
 nav {
   margin-bottom: 15px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-btn {
-  background-color: #EBF0E9;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-input:focus {
-  width: 200px;
-  border: 5px solid black;
+  background-color: beige;
 }
 
 div.mapa {
@@ -47,4 +31,63 @@ div.mapa {
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+.btn {
+  background-color: #EBF0E9;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer {
+  margin: 20px;
+}
+
+.textoFooter {
+  font-size: 18px;
+}
+
+.containerRedes {
+  width: 100%;
+}
+.containerRedes ul:hover a {
+  filter: blur(2px);
+}
+.containerRedes ul li {
+  display: inline-block;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.containerRedes ul li a {
+  display: block;
+  padding: 0 10px;
+  background-color: #333;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.containerRedes ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  filter: none;
+}
+.containerRedes ul li:hover .facebook {
+  background-color: #3b5999;
+}
+.containerRedes ul li:hover .instagram {
+  background-color: #e4405f;
+}
+.containerRedes ul li:hover .whatsapp {
+  background-color: #25D366;
+}
+.containerRedes ul li:hover .gmail {
+  background-color: #bd081c;
 }/*# sourceMappingURL=style.css.map */

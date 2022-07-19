@@ -1,53 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
+  @import"resets";
+  @import"nav";
+  @import"ubicacion";
+  @import"btn";
+  @import"logo";
+  @import"input";
+  @import"variables";
+  @import"footer";
+
   
-  .imgNav {
-    width: 32px;
-    justify-self: start;
-  }
-  
-  nav {
-    margin-bottom: 15px;
-  }
-  
-  .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  btn {
-    background-color: #EBF0E9;
-    padding: 5px;
-  border-radius: 5px ;
+
     
-  }
-  input:focus{
-    width: 200px;
-    border: 5px solid black;
-  }
-  div.mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 5px;
-   
   
-    
-  }
-  .fondoUbi{
-    background-image: url(../img/r&M\ Fondo.jpg);
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  
-  }
-  
+
+
