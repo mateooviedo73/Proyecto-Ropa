@@ -1,0 +1,30 @@
+
+.mainProductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+}
+.card{
+    background-color: #E7EAEF;
+    margin-right: 5px;
+    height: 100%;
+    width: 100%;
+    margin-left: 5px;
+    
+}
+.card img{
+    padding: 5px;
+
+}
+@media(min-width: 768px){
+    .mainProductos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+}
