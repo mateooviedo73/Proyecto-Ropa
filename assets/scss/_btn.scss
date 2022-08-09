@@ -1,11 +1,15 @@
 .btn {
-    background-color: white;
-    color: black;
-    padding: 5px;
-    border-radius: 5px ;
+    background-color:#089FE0;
+    color: white;
+    padding: .7em 0;
+    font-weight: 300;
+    font-size: 1rem;
     text-decoration: none;
     border: none;
+    border-radius: .4em;
+    cursor: pointer;
     transition: 0.2s;
+    width: 100%;
     &:hover{
         transform: translateY(-3px)
         scale(1.05);

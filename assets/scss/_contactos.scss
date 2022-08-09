@@ -1,0 +1,32 @@
+.mainContactos{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.formulario{
+    font-family: inherit;
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+   
+}
+.input form-control{
+    font-family: inherit;
+    
+}
+.contenedorForm{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+
+}
+.tituloForm{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4rem;
+}

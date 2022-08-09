@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto+Condensed:ital@1&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +10,12 @@
   justify-self: start;
 }
 
-.nav {
+.navbar navbar-expand-lg bg-light {
   margin-bottom: 15px;
   background-color: #F5F8FC;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 div.mapa {
@@ -23,7 +27,7 @@ div.mapa {
 }
 
 .fondoUbi {
-  background-image: url(../img/r&M\ Fondo.jpg);
+  background-image: url;
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,13 +38,17 @@ div.mapa {
 }
 
 .btn {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
+  background-color: #089FE0;
+  color: white;
+  padding: 0.7em 0;
+  font-weight: 300;
+  font-size: 1rem;
   text-decoration: none;
   border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
   transition: 0.2s;
+  width: 100%;
 }
 .btn:hover {
   transform: translateY(-3px) scale(1.05);
@@ -52,6 +60,22 @@ div.mapa {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.mainContactos {
+  background: linear-gradient(to bottom, #8e9eab, #eef2f3);
+}
+
+aside {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+body {
+  background-color: #F5F8FC;
+}
+
+.logo {
+  background-color: white;
 }
 
 .footer {
@@ -112,6 +136,7 @@ div.mapa {
   justify-content: center;
   text-align: center;
   margin-top: 20px;
+  height: 400px;
 }
 
 .carousel {
@@ -136,10 +161,72 @@ div.mapa {
   padding: 5px;
 }
 
+#productos {
+  background-image: url(../img/r&M\ Fondo.jpg);
+}
+
+.header {
+  background-image: url(../img/r&M\ Fondo.jpg);
+}
+
 @media (min-width: 768px) {
   .mainProductos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+}
+.mainContactos {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.formulario {
+  font-family: inherit;
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.input form-control {
+  font-family: inherit;
+}
+
+.contenedorForm {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.tituloForm {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.mainQs {
+  background: linear-gradient(to bottom, #8e9eab, #eef2f3);
+  display: flex;
+}
+
+.tarjetaQs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img.imgQs {
+  justify-content: end;
+  align-items: flex-end;
+}
+
+p.textQs {
+  justify-content: flex-start;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

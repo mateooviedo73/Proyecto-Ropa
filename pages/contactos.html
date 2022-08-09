@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda R&M</title>
+    <meta name="description" content="contactate con nosotros">
     <!-- CSS only -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body data-aos="fade-down" class="container-fluid">  
+<body data-aos="fade-down"  class="container-fluid">  
    <div class="logo">
      <img class="img w-200px " src="../assets/img/Logo.png" alt="">
    </div>
@@ -35,7 +36,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="./productos/hombres.html">Masculino</a></li>
                   <li><a class="dropdown-item" href="./productos/mujeres.html">Femenino</a></li>
-                  <li><a class="dropdown-item" href="./productos/niños.html">Niños</a></li>
+                  <li><a class="dropdown-item d-none" href="./productos/niños.html">Niños</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -59,36 +60,38 @@
 
         </header>
         
-        <main class="main">
-            <h1 class=" text-center my-5">Contactos</h1>
-            <form class="row" action="">
-                <div class=" col-md-6 mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="text" class=" input form-control" id="exampleFormControlInput1" placeholder="Inserte su Nombre">
+        <main class="mainContactos">
+            <form class="formulario" action="https://formspree.io/f/xnqrqaaw"
+            method="POST"> 
+                <div class=" contenedorForm">
+                  <h2 class="tituloForm">Contáctanos</h2>
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="text" name="nombre" class=" input form-control" id="exampleFormControlInput1" placeholder="Inserte su Nombre">
                   </div>
-                  <div class="col-md-6 mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                    <input type="text" class=" input form-control" id="exampleFormControlInput1" placeholder="Inserte su apellido">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label> 
-                    <input type="email" class=" input form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <div class="">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="text" name="apellido" class=" input form-control" id="exampleFormControlInput1" placeholder="Inserte su apellido">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
-                    <input type="password" class=" input form-control" id="exampleFormControlInput1" placeholder="Inserte su Contraseña">
+                    <label for="exampleFormControlInput1" class="form-label"></label> 
+                    <input type="email"name="email" class=" input form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="password" name="contraseña" class=" input form-control" id="exampleFormControlInput1" placeholder="Inserte su Contraseña">
                   </div>
                   <div>
-                    <input class="btn w-25 m-4 " type="submit" value="Enviar">
+                    <input class="btn " type="submit" value="Enviar">
                   </div>
 
 
             </form>
-            
+
+        
         </main>
 
         <aside>
-          <p>Por cualquier consulta sobre cualquier prenda de ropa contactese al email @R&M@email.com</p>
+          
 
         </aside>
         <footer class="footer row container-fluid text-center d-flex align-items-center justify-content-center">
@@ -97,7 +100,7 @@
               <li><a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
               <li><a href="" class="gmail"><i class="fa-solid fa-envelope"></i></a></li>
               <li><a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="https://wa.me/qr/W6GMPMJSDVYJL1" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
             </ul>
 
           </div>

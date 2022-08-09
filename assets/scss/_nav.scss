@@ -3,9 +3,11 @@
     justify-self: start;
   }
   
-  .nav {
+  .navbar navbar-expand-lg bg-light {
     margin-bottom: 15px;
     background-color:#F5F8FC;
+    position: sticky;
+    top: 0;
   }
 
 

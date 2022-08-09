@@ -19,12 +19,19 @@
     padding: 5px;
 
 }
+#productos{
+    background-image:url(../img/r&M\ Fondo.jpg);
+}
+.header{
+    background-image: url(../img/r&M\ Fondo.jpg);
+}
 @media(min-width: 768px){
     .mainProductos{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-
 }
+
+
+    
